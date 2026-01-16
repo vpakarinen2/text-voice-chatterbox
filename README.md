@@ -25,6 +25,11 @@ Activate environment:
 .\.venv\Scripts\Activate.ps1
 ```
 
+Install PyTorch with CUDA:
+```
+pip install --index-url https://download.pytorch.org/whl/cu121 torch torchvision torchaudio
+```
+
 Install dependencies:
 
 ```
