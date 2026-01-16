@@ -1,0 +1,10 @@
+uvicorn[standard]
+python-multipart
+pydantic
+requests
+fastapi
+
+transformers
+numpy<2.0.0
+accelerate
+soundfile
