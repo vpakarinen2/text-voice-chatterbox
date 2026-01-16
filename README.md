@@ -46,6 +46,8 @@ Base URL: `http://127.0.0.1:8000`
 - `POST /tts/generate`
 - `POST /tts/clone`
 
+Drop your .wav files into backend/assets/voices/
+
 ## Frontend
 
 ### Setup
