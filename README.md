@@ -1,4 +1,4 @@
-# Text2Speech/Voice Cloning (Chatterbox Turbo).
+# TTS/Voice Cloning (Chatterbox Turbo).
 
 ## Screenshots
 
