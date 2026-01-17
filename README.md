@@ -25,6 +25,12 @@ Activate environment:
 .\.venv\Scripts\Activate.ps1
 ```
 
+Install Chatterbox:
+
+```
+pip install chatterbox-tts
+```
+
 Install PyTorch with CUDA:
 ```
 pip install --index-url https://download.pytorch.org/whl/cu121 torch torchvision torchaudio
