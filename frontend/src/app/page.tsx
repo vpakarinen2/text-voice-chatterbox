@@ -98,23 +98,23 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-800 flex items-center justify-center p-4">
+    <main className="min-h-screen bg-gray-300 flex items-center justify-center p-4">
       
       {/* CARD: Bright White (bg-white) for high contrast */}
-      <div className="w-full max-w-2xl bg-slate-200 rounded-3xl shadow-2xl overflow-hidden border border-slate-800/50">
+      <div className="w-full max-w-4xl bg-blue-50 rounded-3xl overflow-hidden border">
         
         {/* HEADER: Light mode text */}
         <div className="px-8 py-6 border-b border-gray-100 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="p-2.5 bg-slate-500 rounded-xl">
+            <div className="p-2.5 bg-gray-500 rounded-xl">
               <Volume2 className="w-6 h-6 text-white" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-slate-600 tracking-tight">Chatterbox</h1>
-              <p className="text-slate-400 text-sm font-md">TTS/Voice Cloning</p>
+              <p className="text-slate-500 text-sm font-md">TTS/Voice Cloning</p>
             </div>
           </div>
-          <div className="flex items-center gap-2 text-xs font-bold font-mono text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">
+          <div className="flex items-center gap-2 text-xs font-bold font-mono text-emerald-600 bg-emerald-100 px-3 py-1 rounded-full border border-emerald-200">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
             ONLINE
           </div>
@@ -152,7 +152,7 @@ export default function Home() {
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
                   <label className="text-xs font-bold text-gray-400 uppercase tracking-wider">Select Voice Model</label>
-                  <button onClick={loadVoices} className="text-xs text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 transition-colors">
+                  <button onClick={loadVoices} className="text-xs text-blue-500 font-medium hover:text-blue-800 flex items-center gap-1 transition-colors hover:cursor-pointer">
                     <RefreshCcw className="w-3 h-3" /> Refresh List
                   </button>
                 </div>
