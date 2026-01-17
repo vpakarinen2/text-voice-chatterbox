@@ -2,8 +2,8 @@
 
 ## Screenshots
 
-![Chatterbox Preset Voices](chatterbox_studio_preset_voices.png)
-![Chatterbox Clone Voice](chatterbox_studio_clone_voice.png)
+![Chatterbox Preset Voices](chatterbox_preset_voices.png)
+![Chatterbox Clone Voice](chatterbox_clone_voice.png)
 
 ## Backend
 
