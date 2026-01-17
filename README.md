@@ -33,7 +33,7 @@ pip install chatterbox-tts
 
 Install PyTorch with CUDA:
 ```
-pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124 --force-reinstall
 ```
 
 Install dependencies:
